@@ -6,6 +6,65 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%; /* 10px -> 1rem */
+}
+
 button {
     font-family: inherit;
+}
+
+
+/*******************************************************
+    6 columns -> 4 in center, 2 in margins
+    21px -> margins left and right -> 2 * 21 = 42px
+    
+    calc((100% - 42px - 3 * 20px) / 4):
+    - 4 center columns
+    - 3 gaps in middle, 20px each
+    - 42px reserved for left and right columns
+*********************************************************/
+
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, calc((100% - 42px - 3 * 20px) / 4)) 1fr;
+    gap: 20px;
+}
+
+/* 700 */
+@media (width > 43.75em) {
+    
+    /*******************************************************
+        10 columns -> 8 in center, 2 in margins
+        32px -> margins left and right -> 2 * 32 = 64px
+        
+        calc((100% - 64px - 7 * 24px) / 8):
+        - 8 center columns
+        - 7 gaps in middle, 24px each
+        - 64px reserved for left and right columns
+    *********************************************************/
+    .grid-main {
+        display: grid;
+        grid-template-columns: 1fr repeat(8, calc((100% - 64px - 7 * 24px) / 8)) 1fr;
+        gap: 24px;
+    }
+}
+
+
+/* 1240px */
+@media (width > 77.5em) {
+
+    /*******************************************************
+        14 columns -> 12 in center, 2 in margins
+        
+        center columns size 1170px -> 117rem
+        calc((117rem - 11 * 30px) / 12):
+        - 12 center columns
+        - 11 gaps in middle, 30px each
+    *********************************************************/
+    .grid-main {
+        display: grid;
+        grid-template-columns: 1fr repeat(12, calc((117rem - 11 * 30px) / 12)) 1fr;
+        gap: 30px;
+    }
 }
