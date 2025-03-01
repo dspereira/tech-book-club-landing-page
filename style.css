@@ -1,3 +1,46 @@
+
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/inter/static/Inter_18pt-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format('truetype');
+}
+
+
 *,
 *::before,
 *::after {
@@ -10,61 +53,190 @@ html {
     font-size: 62.5%; /* 10px -> 1rem */
 }
 
+body {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: hsl(195, 23%, 28%);
+}
+
 button {
     font-family: inherit;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
-/*******************************************************
-    6 columns -> 4 in center, 2 in margins
-    21px -> margins left and right -> 2 * 21 = 42px
-    
-    calc((100% - 42px - 3 * 20px) / 4):
-    - 4 center columns
-    - 3 gaps in middle, 20px each
-    - 42px reserved for left and right columns
-*********************************************************/
+h1, h2, h3 {
+    font-family: "martian";
+}
 
+.primary-heading {
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px;
+    background: linear-gradient(107deg, hsl(22, 100%, 69%) -11.37%, hsl(194, 78%, 11%) 61.84%);
+    background-clip: text;
+    color: transparent;
+}
+
+.primary-heading span {
+    display: block;
+}
+
+.hero-btn-wrapper {
+    display: inline-block;   
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    font-family: "martian";
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(194, 78%, 11%);
+    border: 2px solid hsl(194, 78%, 11%);
+    border-radius: 0.8rem;
+}
+
+.icon-arrow-down {
+    position: absolute;
+    top: 50%;
+    right: 2.4rem;
+    transform: translateY(-50%);
+}
+
+
+/***********************/
+/* Mobile */
+/***********************/
 .grid-main {
     display: grid;
     grid-template-columns: 1fr repeat(4, calc((100% - 42px - 3 * 20px) / 4)) 1fr;
     gap: 20px;
 }
 
-/* 700 */
-@media (width > 43.75em) {
+.primary-heading {
+  grid-column: 2 / -2;
+  font-size: 3.8rem;
+}
+
+.hero-text {
+    grid-column: 2 / -2;
+}
+
+.hero-btn-container {
+    grid-column: 2 / -2;
+}
+
+.hero-devs-joined {
+    grid-column: 2 / -2;
+}
+
+.hero-img {
+    grid-column: 2 / -2;
+}
+
+.hero-btn {
+    font-size: 1.6rem;
+    padding: 2.15rem 2.3rem;
+    padding-right: 6.3rem;
+}
+
+.icon-arrow-down {
+    right: 2.3rem;
+}
+
+/* test */
+/* body {
+    background-color: antiquewhite;
+} */
+
+
+/***********************/
+/* Tablet < 387 */
+/* FIX HERO BTN */
+/***********************/
+@media (width < 24.1875em) {
+    .hero-btn {
+        font-size: 1.6rem;
+        padding: 2.15rem 1.6rem;
+        padding-right: 5.6rem;
+    }
     
-    /*******************************************************
-        10 columns -> 8 in center, 2 in margins
-        32px -> margins left and right -> 2 * 32 = 64px
-        
-        calc((100% - 64px - 7 * 24px) / 8):
-        - 8 center columns
-        - 7 gaps in middle, 24px each
-        - 64px reserved for left and right columns
-    *********************************************************/
+    .icon-arrow-down {
+        right: 1.6rem;
+    }
+}
+
+/***********************/
+/* Tablet > 700 */
+/***********************/
+@media (width > 43.75em) {
     .grid-main {
         display: grid;
         grid-template-columns: 1fr repeat(8, calc((100% - 64px - 7 * 24px) / 8)) 1fr;
         gap: 24px;
     }
+
+    .primary-heading {
+        grid-column: 2 / -3;
+        font-size: 6.2rem;
+    }
+
+    .hero-btn {
+        font-size: 1.8rem;
+        padding: 2.05rem 2.4rem;
+        padding-right: 6.4rem;
+    }
+
+    .icon-arrow-down {
+        right: 2.4rem;
+    }
+
+
+    /*test*/
+    /* body {
+        background-color:aliceblue;
+    } */
 }
 
-
-/* 1240px */
+/***********************/
+/* Desktop > 1240px */
+/***********************/
 @media (width > 77.5em) {
-
-    /*******************************************************
-        14 columns -> 12 in center, 2 in margins
-        
-        center columns size 1170px -> 117rem
-        calc((117rem - 11 * 30px) / 12):
-        - 12 center columns
-        - 11 gaps in middle, 30px each
-    *********************************************************/
     .grid-main {
         display: grid;
         grid-template-columns: 1fr repeat(12, calc((117rem - 11 * 30px) / 12)) 1fr;
         gap: 30px;
     }
+
+    .primary-heading {
+        grid-column: 2 / 8;
+        font-size: 6.2rem;
+    }
+
+    .hero-btn {
+        font-size: 1.8rem;
+        padding: 2.05rem 2.4rem;
+        padding-right: 6.4rem;
+    }
+
+    .icon-arrow-down {
+        right: 2.4rem;
+    }
+
+    /*test*/
+    /* body {
+        background-color:blanchedalmond;
+    } */
 }
