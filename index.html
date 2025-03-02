@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href=".assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
-  
   <title>Frontend Mentor | Tech book club</title>
 </head>
 <body>
 
-  <header class="grid-main">
-    <nav>
+  <header class="grid-main header-container">
+    <nav class="header-nav-container">
       <a href="">
         <img src="assets/images/logo.svg" alt="Teck Book Club Home"/>
       </a>
@@ -20,7 +18,7 @@
   </header>
   <main>
     <section class="hero">
-      <div class="grid-main">
+      <div class="grid-main grid-rows-hero">
         <h1 class="primary-heading">
           <span>Join the</span> <span>ultimate tech</span> <span>book club</span>
         </h1>
@@ -29,21 +27,34 @@
           Get curated recommendations, join vibrant discussions, and level up your 
           skills one chapter at a time.
         </p>
+        
         <div class="hero-btn-container">
           <div class="hero-btn-wrapper">
             <a class="hero-btn btn" href="">Review membership options</a>
             <img
               class="icon-arrow-down"
-              src="assets/images/icon-arrow-down.svg" 
+              src="assets/images/icon-arrow-down.svg"
               width="24"
-              height="24"
+              height="25"
               alt="Arrow down icon"
             />
           </div>
         </div>
-        <div class="hero-devs-joined">
-          200+ developers joined already
+
+        <div class="hero-testimonials">
+          <img class="testimonials-photos" src="assets/images/image-avatars.webp" width="220" height="80" alt="Photos of testimonial participants" />
+          <div class="testimonials-info">
+            <div class="star-rate">
+              <img class="icon-star" src="assets/images/icon-star.svg" width="24" height="25" alt="Star icon" />
+              <img class="icon-star" src="assets/images/icon-star.svg" width="24" height="25" alt="Star icon" />
+              <img class="icon-star" src="assets/images/icon-star.svg" width="24" height="25" alt="Star icon" />
+              <img class="icon-star" src="assets/images/icon-star.svg" width="24" height="25" alt="Star icon" />
+              <img class="icon-star" src="assets/images/icon-star.svg" width="24" height="25" alt="Star icon" />
+            </div>
+            <p>200+ developers joined already</p>
+          </div>
         </div>
+
         <picture class="hero-img">
           <source 
             media="(width > 77.5em)"
