@@ -8,7 +8,6 @@
   <title>Frontend Mentor | Tech book club</title>
 </head>
 <body>
-
   <header class="grid-main header-container">
     <nav class="header-nav-container">
       <a href="">
@@ -17,7 +16,7 @@
     </nav>
   </header>
   <main>
-    <section class="hero">
+    <section class="hero-section">
       <div class="grid-main grid-rows-hero">
         <h1 class="primary-heading">
           <span>Join the</span> <span>ultimate tech</span> <span>book club</span>
@@ -55,20 +54,24 @@
           </div>
         </div>
 
-        <picture class="hero-img">
-          <source 
-            media="(width > 77.5em)"
-            srcset="assets/images/image-hero-desktop.webp"
-          />
-          <source 
-            media="(width > 43.75em)"
-            srcset="assets/images/image-hero-tablet.webp"
-          />
-          <img 
-            src="assets/images/image-hero-mobile.webp"
-            alt="A Group of developers reading a tech book"
-          />
-        </picture>
+        <div class="hero-img-container">
+          <picture class="hero-img">
+            <source 
+              media="(width > 77.5em)"
+              srcset="assets/images/image-hero-desktop.webp"
+            />
+            <source 
+              media="(width > 43.75em)"
+              srcset="assets/images/image-hero-tablet.webp"
+            />
+            <img
+              class="img-border-redius"
+              src="assets/images/image-hero-mobile.webp"
+              alt="A Group of developers reading a tech book"
+            />
+          </picture>
+        </div>
+
       </div>
     </section>
   </main>
