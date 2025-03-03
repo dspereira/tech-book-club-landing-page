@@ -151,6 +151,7 @@ h1, h2, h3 {
     color: hsl(195, 23%, 28%);
 }
 
+
 .header-container {
     background-image:url("assets/images/pattern-light-bg.svg");
     background-color: hsl(17, 41%, 97%);
@@ -161,6 +162,63 @@ h1, h2, h3 {
     background-color: hsl(17, 41%, 97%);
     padding-bottom: 8rem;
 }
+
+
+/*
+.hero-section {
+    background-image:url("assets/images/pattern-light-bg.svg");
+    background-color: black;
+    padding-bottom: 8rem;
+}
+*/
+
+
+.hero-img-container {
+    position: relative;
+}
+
+.hero-img-glow-container {
+    position: absolute;
+    /* background-color: red; */
+    bottom: 0;
+    right: 0;
+    transform: translate(65%, 45%);
+}
+
+ .hero-img {
+    position: relative;
+    z-index: 10;
+} 
+
+
+/*
+.hero-img-glow-container {
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 35%);
+}
+*/
+
+/*
+.hero-section {
+    position: relative;
+}
+
+
+*/
+
+/* .hero-img-glow-container {
+    width: 68.4rem;
+    height: 68.4rem;
+} */
+
+.hero-img-glow-container {
+    width: 108.4rem;
+    height: 108.4rem;
+}
+
 
 /***********************/
 /* Mobile */
