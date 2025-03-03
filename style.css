@@ -151,7 +151,6 @@ h1, h2, h3 {
     color: hsl(195, 23%, 28%);
 }
 
-
 .header-container {
     background-image:url("assets/images/pattern-light-bg.svg");
     background-color: hsl(17, 41%, 97%);
@@ -163,24 +162,20 @@ h1, h2, h3 {
     padding-bottom: 8rem;
 }
 
-.hero-img-container {
-    position: relative;
-}
-
-.hero-img-glow-container {
-    position: absolute;
-}
-
 .hero-img {
     position: relative;
     z-index: 10;
 } 
 
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
 .hero-img-glow-container {
+    position: absolute;
     width: 108.4rem;
     height: 108.4rem;
 }
-
 
 /***********************/
 /* Mobile */
