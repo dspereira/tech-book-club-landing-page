@@ -163,56 +163,18 @@ h1, h2, h3 {
     padding-bottom: 8rem;
 }
 
-
-/*
-.hero-section {
-    background-image:url("assets/images/pattern-light-bg.svg");
-    background-color: black;
-    padding-bottom: 8rem;
-}
-*/
-
-
 .hero-img-container {
     position: relative;
 }
 
 .hero-img-glow-container {
     position: absolute;
-    /* background-color: red; */
-    bottom: 0;
-    right: 0;
-    transform: translate(65%, 45%);
 }
 
- .hero-img {
+.hero-img {
     position: relative;
     z-index: 10;
 } 
-
-
-/*
-.hero-img-glow-container {
-    position: absolute;
-    background-color: red;
-    bottom: 0;
-    right: 0;
-    transform: translate(50%, 35%);
-}
-*/
-
-/*
-.hero-section {
-    position: relative;
-}
-
-
-*/
-
-/* .hero-img-glow-container {
-    width: 68.4rem;
-    height: 68.4rem;
-} */
 
 .hero-img-glow-container {
     width: 108.4rem;
@@ -267,11 +229,11 @@ h1, h2, h3 {
     right: 2.3rem;
 }
 
-/* test */
-/* body {
-    background-color: antiquewhite;
-} */
-
+.hero-img-glow-container {
+    bottom: 0;
+    right: 0;
+    transform: translate(90%, 50%);
+}
 
 /***********************/
 /* Tablet < 387 */
@@ -344,11 +306,11 @@ h1, h2, h3 {
         right: 2.4rem;
     }
 
-
-    /*test*/
-    /* body {
-        background-color:aliceblue;
-    } */
+    .hero-img-glow-container {
+        bottom: 0;
+        right: 0;
+        transform: translate(30%, 40%);
+    }
 }
 
 /***********************/
@@ -376,7 +338,7 @@ h1, h2, h3 {
         grid-row: 2;
         font-size: 6.2rem;
     }
-
+    
     .hero-img-container {
         display: block;
         grid-column: 8 / -2;
@@ -386,7 +348,6 @@ h1, h2, h3 {
         align-self: center;
         padding-left: 3.5rem;
     }
-
 
     .hero-text {
         grid-column: 2 / 7;
@@ -416,5 +377,11 @@ h1, h2, h3 {
     .hero-testimonials {
         grid-column: 2 / 7;
         grid-row: 5;
+    }
+
+    .hero-img-glow-container {
+        bottom: 0;
+        right: 0;
+        transform: translate(65%, 45%);
     }
 }
