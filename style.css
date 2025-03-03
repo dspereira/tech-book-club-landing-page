@@ -272,6 +272,9 @@ h1, h2, h3 {
     grid-column: 2 / -2;
 }
 
+.book-club {
+    margin-top: 6.4rem;
+}
 .secondary-heading-font-size {
     font-size: 3.4rem;
 }
@@ -363,6 +366,10 @@ h1, h2, h3 {
 
     .features-info-container, .features-img-container {
         grid-column: 2 / -2;
+    }
+
+    .book-club {
+        margin-top: 8.0rem;
     }
 
     .secondary-heading-font-size {
@@ -498,6 +505,10 @@ h1, h2, h3 {
     .read-together .left-side {
         grid-column: 2 / 8;
         grid-row: 1 / -1;
+    }
+
+    .book-club {
+        margin-top: 12.0rem;
     }
 
     .book-club .right-side {
