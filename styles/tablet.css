@@ -8,9 +8,8 @@
         row-gap: 20px;
     }
 
-    .padding-sections {
+    .padding-section-top {
         padding-top: 8.0rem;
-        padding-bottom: 8.0rem;
     }
 
     .header-nav-container {
@@ -110,5 +109,5 @@
 
     /* JOURNEY */
 
-    
+
 }
