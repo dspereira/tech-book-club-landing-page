@@ -1,0 +1,274 @@
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "martian";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/inter/static/Inter_18pt-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format('truetype');
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /* 10px -> 1rem */
+}
+
+body {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: hsl(195, 23%, 28%);
+}
+
+button {
+    font-family: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-border-redius{
+    border-radius: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: "martian";
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.grid-main {
+    display: grid;
+}
+
+.header-nav-container {
+    grid-column: 2 / -2;
+}
+
+.primary-heading {
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2px;
+    background: linear-gradient(107deg, hsl(22, 100%, 69%) -11.37%, hsl(194, 78%, 11%) 61.84%);
+    background-clip: text;
+    color: transparent;
+}
+
+.primary-heading span {
+    display: block;
+}
+
+.secondary-heading {
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -2px;
+    color:hsl(194, 78%, 11%);
+}
+
+.hero-btn-wrapper {
+    display: inline-block;   
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    font-family: "martian";
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(194, 78%, 11%);
+    border: 2px solid hsl(194, 78%, 11%);
+    border-radius: 0.8rem;
+}
+
+.icon-arrow-down {
+    position: absolute;
+    top: 50%;
+    right: 2.4rem;
+    transform: translateY(-50%);
+}
+
+.hero-testimonials {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.testimonials-photos {
+    width: 11rem;
+    height: auto;
+}
+
+.star-rate {
+    display: flex;
+}
+
+.testimonials-info p {
+    font-family: "martian";
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -1px;
+    color: hsl(195, 23%, 28%);
+}
+
+.header-container {
+    background-image:url("../assets/images/pattern-light-bg.svg");
+    background-color: hsl(17, 41%, 97%);
+}
+
+.hero-section {
+    background-image:url("../assets/images/pattern-light-bg.svg");
+    background-color: hsl(17, 41%, 97%);
+    padding-bottom: 8rem;
+}
+
+.hero-img {
+    position: relative;
+    z-index: 10;
+} 
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-img-glow-container {
+    position: absolute;
+    width: 108.4rem;
+    height: 108.4rem;
+}
+
+.features-section {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.read-together-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.read-together-list li {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.average-book-club-text {
+    margin-top: 2.4rem;
+}
+
+/* JOURNEY */
+.journey-container {
+    grid-column: 2 / -2;
+    padding: 0 120px;
+    background-image:url("../assets/images/pattern-light-bg.svg");
+    background-color: hsl(17, 41%, 97%);
+    text-align: center;
+}
+
+.journey-list li {
+    display: flex;
+    flex-direction: column;
+    font-family: "martian";
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1px;
+    color: hsl(194, 78%, 11%);
+}
+
+.journey-list-number {
+    display: inline-flex;
+    border: 2px solid hsl(194, 78%, 11%);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* desktop */
+.journey-container {
+    padding: 0 6.0rem;
+}
+
+.journey-heading {
+    padding-left: 26.9rem;
+    padding-right: 26.9rem;
+}
+
+.journey-list {
+    margin-top: 6.4rem;
+}
+
+.journey-list li {
+    position: relative;
+    gap: 2.4rem;
+    font-size: 1.8rem;
+}
+
+.journey-list-number {
+    width: 4.0rem;
+    height: 4.0rem;
+    gap: 2.4rem;
+}
+
+.journey-list {
+    display: flex;
+    gap: 3.6rem;
+}
+
+.icon-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9.0rem;
+    height: 3.5rem;
+}

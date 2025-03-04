@@ -1,0 +1,101 @@
+/***********************/
+/* Mobile */
+/***********************/
+.grid-main {
+    grid-template-columns: 1fr repeat(4, calc((100% - 42px - 3 * 20px) / 4)) 1fr;
+    gap: 20px;
+}
+
+.padding-sections {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.header-nav-container {
+    margin-top: 2.4rem;
+    margin-bottom: 4.8rem;
+}
+
+.primary-heading {
+  grid-column: 2 / -2;
+  font-size: 3.8rem;
+}
+
+.hero-text {
+    grid-column: 2 / -2;
+    margin-top: 0.4rem;
+}
+
+.hero-btn-container {
+    grid-column: 2 / -2;
+    margin-top: 1.2rem;
+}
+
+.hero-testimonials{
+    grid-column: 2 / -2;
+}
+
+.hero-img-container {
+    grid-column: 2 / -2;
+    margin-top: 4.4rem;
+}
+
+.hero-btn {
+    font-size: 1.6rem;
+    padding: 2.15rem 2.3rem;
+    padding-right: 6.3rem;
+}
+
+.icon-arrow-down {
+    right: 2.3rem;
+}
+
+.hero-img-glow-container {
+    bottom: 0;
+    right: 0;
+    transform: translate(90%, 50%);
+}
+
+.grid-rows-features {
+    grid-template-rows: repeat(2, auto);
+    row-gap: 4rem;
+}
+
+.features-info-container, .features-img-container {
+    grid-column: 2 / -2;
+}
+
+.book-club {
+    margin-top: 6.4rem;
+}
+
+.secondary-heading-font-size {
+    font-size: 3.4rem;
+}
+
+.read-together-list {
+    margin-top: 2.4rem;
+    gap: 1.6rem;
+}
+
+.icon-check {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.club-highlight {
+    position: relative;
+}
+
+.club-highlight::after {
+    content: "";
+    position: absolute;
+    width: 11.0rem;
+    height: 4.5rem;
+    top: -1px;
+    left: -14px;
+    background-image: url("../assets/images/pattern-circle.png");
+    background-size: cover;
+}
+
+/* JOURNEY */

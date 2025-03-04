@@ -1,0 +1,159 @@
+/***********************/
+/* Desktop > 1240px */
+/***********************/
+@media (width > 77.5em) {
+    .grid-main {
+        grid-template-columns: 1fr repeat(12, calc((117rem - 11 * 30px) / 12)) 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    .padding-sections {
+        padding-top: 12.0rem;
+        padding-bottom: 12.0rem;
+    }
+
+    .header-nav-container {
+        margin-top: 3.2rem;
+        margin-bottom: 8.0rem;
+    }
+
+    .grid-rows-hero {
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .primary-heading {
+        grid-column: 2 / 8;
+        grid-row: 2;
+        font-size: 6.2rem;
+    }
+    
+    .hero-img-container {
+        display: block;
+        grid-column: 8 / -2;
+
+        grid-row: 1 / -1;
+
+        align-self: center;
+        padding-left: 3.5rem;
+    }
+
+    .hero-text {
+        grid-column: 2 / 7;
+        grid-row: 3;
+        margin-top: 0.4rem;
+    }
+
+    .hero-btn-container {
+        grid-column: 2 / 7;
+        grid-row: 4;
+    }
+
+    .hero-btn-container {
+        margin-top: 1.2rem;
+    }
+
+    .hero-btn {
+        font-size: 1.8rem;
+        padding: 2.05rem 2.4rem;
+        padding-right: 6.4rem;
+    }
+
+    .icon-arrow-down {
+        right: 2.4rem;
+    }
+
+    .hero-testimonials {
+        grid-column: 2 / 7;
+        grid-row: 5;
+    }
+
+    .hero-img-glow-container {
+        bottom: 0;
+        right: 0;
+        transform: translate(65%, 45%);
+    }
+
+    .grid-rows-features {
+        grid-template-rows: repeat(3, auto);
+        row-gap: 4rem;
+    }
+
+    .read-together .right-side {
+        grid-column: 8 / -2;
+        grid-row: 2;
+    }
+
+    .read-together .left-side {
+        grid-column: 2 / 8;
+        grid-row: 1 / -1;
+    }
+
+    .book-club {
+        margin-top: 12.0rem;
+    }
+
+    .book-club .right-side {
+        grid-column: 8 / -2;
+        grid-row: 1 / -1;
+    }
+
+    .book-club .left-side {
+        grid-column: 2 / 8;
+        grid-row: 2;
+    }
+
+
+    .right-side > div {
+        padding-left: 3.8rem;
+    }
+
+    .left-side > div {
+        padding-right: 1rem;
+    }
+
+    .secondary-heading-font-size {
+        font-size: 5rem;
+    }
+
+    .read-together-list {
+        margin-top: 3.4rem;
+        gap: 2.4rem;
+    }
+
+    .icon-check {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .image-not-average {
+        position: relative;
+    }
+
+    .image-not-average::after {
+        position: absolute;
+        content: "";
+        width: 12.0rem;
+        height: 13.8rem;
+        background-image: url("../assets/images/logos-tech.svg");
+        bottom: 3.1rem;
+        left: -8.0rem;
+    }
+
+    .club-highlight {
+        position: relative;
+    }
+    
+    .club-highlight::after {
+        content: "";
+        position: absolute;
+        width: 16rem;
+        height: 6.6rem;
+        top: -2px;
+        left: -15px;
+        background-image: url("../assets/images/pattern-circle.png");
+    }
+
+    /* JOURNEY */
+}
