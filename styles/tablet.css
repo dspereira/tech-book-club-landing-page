@@ -138,4 +138,19 @@
         transform: translate(40%, 50%);
     }
 
+    /* MEMBERSHIP */    
+    .membership-container {
+        grid-column: 2 / -2;
+    }
+
+    /* NOTA PARA TABLET VAI SER COM GRID  */ 
+    .membership-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.4rem;
+        margin-top: 2.4rem;
+    }
+
 }

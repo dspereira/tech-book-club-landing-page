@@ -127,3 +127,17 @@
 .journey-container::after {
     transform: translate(65%, 60%);
 }
+
+/* MEMBERSHIP */
+.membership-container {
+    grid-column: 2 / -2;
+}
+
+.membership-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
