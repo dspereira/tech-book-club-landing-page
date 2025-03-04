@@ -98,3 +98,32 @@
 }
 
 /* JOURNEY */
+.icon-arrow {
+    display: none;
+}
+
+.journey-container {
+    padding: 6.4rem 1.6rem;
+}
+
+.journey-list {
+    display: flex;
+    gap: 3.0rem;
+    flex-direction: column;
+    margin-top: 3.2rem;
+}
+
+.journey-list li {
+    gap: 2.0rem;
+    font-size: 1.6rem;
+}
+
+.journey-list-number {
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.7rem;
+}
+
+.journey-container::after {
+    transform: translate(65%, 60%);
+}

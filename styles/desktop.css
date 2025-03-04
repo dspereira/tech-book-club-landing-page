@@ -159,12 +159,19 @@
         padding: 8.0rem 6.0rem;
     }
 
+    .journey-heading-container {
+        text-align: center;
+    }
+
     .journey-heading {
         padding-left: 26.9rem;
         padding-right: 26.9rem;
     }
 
     .journey-list {
+        display: flex;
+        gap: 3.6rem;
+        flex-direction: row;
         margin-top: 6.4rem;
     }
 
@@ -178,15 +185,10 @@
         font-size: 2.0rem;
         width: 4.0rem;
         height: 4.0rem;
-        gap: 2.4rem;
-    }
-
-    .journey-list {
-        display: flex;
-        gap: 3.6rem;
     }
 
     .icon-arrow {
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
@@ -194,18 +196,7 @@
         height: 3.5rem;
     }
 
-    .journey-container {
-        position: relative;
-    }
-
     .journey-container::after {
-        content: "";
-        position: absolute;
-        width: 108.4rem;
-        height: 108.4rem;
-        background-image: url("../assets/images/pattern-glow.svg");
-        bottom: 0;
-        right: 0;
         transform: translate(45%, 55%);
     }
 }
