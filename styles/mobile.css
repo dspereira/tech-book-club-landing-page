@@ -108,7 +108,7 @@
 
 .journey-list {
     display: flex;
-    gap: 3.0rem;
+    gap: 3.9rem;
     flex-direction: column;
     margin-top: 3.2rem;
 }
