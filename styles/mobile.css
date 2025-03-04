@@ -136,8 +136,17 @@
 .membership-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     gap: 2.4rem;
     margin-top: 2.4rem;
+}
+
+.membership-list > li {
+    display: block;
+    width: 100%;
+    max-width: 34.0rem;
+}
+
+.membership-plan, .membership-plan-pro {
+    padding: 2.4rem;
 }
