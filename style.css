@@ -215,7 +215,7 @@ h1, h2, h3 {
 
 .padding-sections {
     padding-top: 6.4rem;
-    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
 }
 
 .header-nav-container {
@@ -275,6 +275,7 @@ h1, h2, h3 {
 .book-club {
     margin-top: 6.4rem;
 }
+
 .secondary-heading-font-size {
     font-size: 3.4rem;
 }
