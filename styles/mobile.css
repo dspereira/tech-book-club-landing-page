@@ -129,7 +129,6 @@
 }
 
 /* MEMBERSHIP */
-
 .membership-container {
     grid-column: 2 / -2;
 }
@@ -164,4 +163,40 @@
 .testimonial-quote {
     font-size: 2.4rem;
     line-height: 110%;
+}
+
+/* FOOTER */
+.footer-container {
+    padding-top: 4.8rem;
+    padding-bottom: 2.4rem;
+    display: grid;
+    grid-column: 2 / -2;
+    grid-template-columns: subgrid;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 6.4rem; 
+}
+
+.footer-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.footer-heading-container {
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.footer-btn {
+    width: 100%;
+    max-width: 34.5rem;
+    height: 6.4rem;
+}
+
+.footer-copyright {
+    grid-column: 1 / -1;
+    grid-row: 2; 
 }
