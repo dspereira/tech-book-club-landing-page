@@ -169,6 +169,15 @@ ul, ol {
     gap: 1.2rem;
 }
 
+.hero-testimonials p{
+    color: hsl(195, 23%, 28%);
+}
+
+.footer-testimonials p{
+    color: hsl(0, 0%, 100%);
+}
+
+
 .testimonials-photos {
     width: 11rem;
     height: auto;
@@ -184,7 +193,6 @@ ul, ol {
     font-weight: 400;
     line-height: 120%;
     letter-spacing: -1px;
-    color: hsl(195, 23%, 28%);
 }
 
 .header-container {
@@ -399,9 +407,17 @@ ul, ol {
     grid-column: 2 / -2;
     grid-template-columns: subgrid;
     grid-template-rows: repeat(2, auto);
-    row-gap: 6.4rem; 
+    row-gap: 6.4rem;
 }
 
 .footer-section h2 {
     color: hsl(17, 41%, 97%);
+}
+
+.footer-copyright {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    padding-top: 2.4rem;
+    border-top: 1px solid hsl(195, 23%, 28%);
+    color: hsl(0, 0%, 100%);
 }

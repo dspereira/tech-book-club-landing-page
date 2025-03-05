@@ -188,6 +188,14 @@
 }
 
 .footer-copyright {
-    grid-column: 1 / -1;
-    grid-row: 2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
 }
