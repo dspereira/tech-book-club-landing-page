@@ -8,6 +8,13 @@
         row-gap: 20px;
     }
 
+    .btn-with-icon {
+        font-size: 1.8rem;
+        width: 100%;
+        max-width: 38.0rem;
+        height: 6.4rem;
+    }
+
     .padding-section-top {
         padding-top: 8.0rem;
     }
@@ -36,11 +43,11 @@
         margin-top: 1.2rem;
     }
 
-    .hero-btn {
+    /* .hero-btn {
         font-size: 1.8rem;
         padding: 2.05rem 2.4rem;
         padding-right: 6.4rem;  
-    }
+    } */
 
     .icon-arrow-down {
         right: 2.4rem;
@@ -215,11 +222,6 @@
     .footer-container {
         padding-top: 6.4rem;
         padding-bottom: 2.9rem;
-        display: grid;
-        grid-column: 2 / -2;
-        grid-template-columns: subgrid;
-        grid-template-rows: repeat(2, auto);
-        row-gap: 6.4rem; 
     }
     
     .footer-cta {
@@ -236,15 +238,8 @@
         margin-bottom: 1.6rem;
     }
     
-    .footer-btn {
-        width: 100%;
-        max-width: 38.0rem;
-        height: 6.4rem;
-    }
-    
     .footer-copyright {
         grid-column: 1 / -1;
         grid-row: 2; 
     }
-    
 }

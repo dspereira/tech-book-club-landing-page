@@ -122,11 +122,6 @@ ul, ol {
     color:hsl(194, 78%, 11%);
 }
 
-.hero-btn-wrapper {
-    display: inline-block;   
-    position: relative;
-}
-
 .btn {
     display: inline-block;
     font-family: "martian";
@@ -151,7 +146,6 @@ ul, ol {
     color:hsl(0, 0%, 100%);
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 8px;
-
 }
 
 .btn-fill {
@@ -396,9 +390,16 @@ ul, ol {
 }
 
 /* FOOTER */
-
 .footer-grid-container {
     background-color: hsl(194, 78%, 11%);
+}
+
+.footer-container {
+    display: grid;
+    grid-column: 2 / -2;
+    grid-template-columns: subgrid;
+    grid-template-rows: repeat(2, auto);
+    row-gap: 6.4rem; 
 }
 
 .footer-section h2 {

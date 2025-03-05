@@ -6,6 +6,14 @@
     gap: 20px;
 }
 
+.btn-with-icon {
+    font-size: 1.6rem;
+    width: 100%;
+    max-width: 34.5rem;
+    height: 6.4rem;
+}
+
+
 .padding-section-top {
     padding-top: 6.4rem;
 }
@@ -39,11 +47,11 @@
     margin-top: 4.4rem;
 }
 
-.hero-btn {
+/* .hero-btn {
     font-size: 1.6rem;
     padding: 2.15rem 2.3rem;
     padding-right: 6.3rem;
-}
+} */
 
 .icon-arrow-down {
     right: 2.3rem;
@@ -169,11 +177,6 @@
 .footer-container {
     padding-top: 4.8rem;
     padding-bottom: 2.4rem;
-    display: grid;
-    grid-column: 2 / -2;
-    grid-template-columns: subgrid;
-    grid-template-rows: repeat(2, auto);
-    row-gap: 6.4rem; 
 }
 
 .footer-cta {
@@ -188,12 +191,6 @@
 .footer-heading-container {
     text-align: center;
     margin-bottom: 1.6rem;
-}
-
-.footer-btn {
-    width: 100%;
-    max-width: 34.5rem;
-    height: 6.4rem;
 }
 
 .footer-copyright {
