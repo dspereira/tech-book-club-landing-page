@@ -151,3 +151,17 @@
 .membership-plan, .membership-plan-pro {
     padding: 2.4rem;
 }
+
+/* TESTIMONIAL */
+.testimonial-container {
+    grid-column: 2 / -2;
+}
+
+.testimonial-star-rate {
+    justify-content: start;
+}
+
+.testimonial-quote {
+    font-size: 2.4rem;
+    line-height: 110%;
+}

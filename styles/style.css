@@ -339,3 +339,31 @@ ul, ol {
     transform: translate(-20%, 5%);
 }
 
+/* TESTIMONIAL */
+.testimonial-star-rate .icon-star {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.testimonial-quote {
+    font-family: "martian";
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: hsl(194, 78%, 11%);
+}
+
+.testimonial-author {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: hsl(195, 23%, 28%);
+}
+
+.testimonial-quote {
+    margin-top: 3.2rem;
+}
+.testimonial-author {
+    margin-top: 3.2rem;
+}
