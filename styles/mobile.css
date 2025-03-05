@@ -129,6 +129,7 @@
 }
 
 /* MEMBERSHIP */
+
 .membership-container {
     grid-column: 2 / -2;
 }
@@ -136,7 +137,7 @@
 .membership-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 2.4rem;
     margin-top: 2.4rem;
 }

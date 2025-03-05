@@ -217,16 +217,15 @@
         margin-top: 6.4rem;
     }
     
-    .membership-plan {
+    .membership-list .membership-plan {
         width: 28.6rem;
         padding: 2.4rem;
     }
 
-    .membership-plan-pro {
+    .membership-list .membership-plan-pro {
         width: 35.0rem;
         padding: 4.0rem 2.4rem;
     }
-
 }
 
 
