@@ -199,3 +199,22 @@
     align-items: center;
     gap: 2.4rem;
 }
+
+
+/* FOR TOUCH DISLPLAYS */
+@media (hover: none) {
+    .btn-fill:hover, 
+    .btn-outline:hover {
+        background-image: none;
+    }
+    
+    .btn-fill:active {
+        background-image: linear-gradient(90deg, hsl(22, 100%, 91%) 0%, hsl(23, 100%, 97%) 100%);
+        box-shadow: 0rem 0rem 0rem 0.2rem hsl(0, 0%, 100%),0rem 0rem 0rem 0.4rem hsl(195, 23%, 28%);
+    }
+    
+    .btn-outline:active {
+        background-image: linear-gradient(90deg, hsl(195, 23%, 28%) 0%, hsl(194, 78%, 11%) 100%);
+        box-shadow: 0rem 0rem 0rem 0.2rem hsl(194, 78%, 11%), 0rem 0rem 0rem 0.4rem hsl(0, 0%, 100%);  
+    }    
+}
