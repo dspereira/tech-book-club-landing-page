@@ -132,7 +132,7 @@
     .journey-list-number {
         width: 4.0rem;
         height: 4.0rem;
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     
     .journey-container::after {
@@ -163,7 +163,7 @@
     }
 
     .membership-heading-container {
-        grid-column: 1 / -2;
+        grid-column: 1 / -1;
     }
 
     .membership-list {
