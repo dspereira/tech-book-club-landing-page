@@ -209,12 +209,12 @@
     }
     
     .btn-fill:active {
-        background-image: linear-gradient(90deg, hsl(22, 100%, 91%) 0%, hsl(23, 100%, 97%) 100%);
-        box-shadow: 0rem 0rem 0rem 0.2rem hsl(0, 0%, 100%),0rem 0rem 0rem 0.4rem hsl(195, 23%, 28%);
+        background-image: linear-gradient(90deg, var(--light-salmon-100) 0%, var(--light-salmon-50) 100%);
+        box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-0),0rem 0rem 0rem 0.4rem var(--neutral-700);
     }
     
     .btn-outline:active {
-        background-image: linear-gradient(90deg, hsl(195, 23%, 28%) 0%, hsl(194, 78%, 11%) 100%);
-        box-shadow: 0rem 0rem 0rem 0.2rem hsl(194, 78%, 11%), 0rem 0rem 0rem 0.4rem hsl(0, 0%, 100%);  
+        background-image: linear-gradient(90deg, var(--neutral-700) 0%, var(--neutral-900) 100%);
+        box-shadow: 0rem 0rem 0rem 0.2rem var(--neutral-900), 0rem 0rem 0rem 0.4rem var(--neutral-0);  
     }    
 }
