@@ -197,7 +197,8 @@
     }
 
     .journey-list-number {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
+        font-weight: 400;
         width: 4.0rem;
         height: 4.0rem;
     }
