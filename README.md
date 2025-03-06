@@ -26,18 +26,19 @@ Users should be able to:
 
 <details>
   <summary>Desktop</summary>
-  
-  ![desktop](https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot%20-desktop.png)
+
+  <img src="https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot-desktop.png" width="800">
 </details>
 <details>
   <summary>Tablet</summary>
-  
-  ![desktop](https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot-tablet.png)
+
+  <img src="https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot-tablet.png" width="600">
 </details>
 <details>
   <summary>Mobile</summary>
-  
-  ![desktop](https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot-mobile.png)
+
+  <img src="https://github.com/dspereira/tech-book-club-landing-page/blob/main/screenshots/Screenshot-mobile.png" width="300">
+
 </details>
 
 
