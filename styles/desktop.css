@@ -78,6 +78,11 @@
         row-gap: 4rem;
     }
 
+    .features-img-container {
+        width: 100%;
+        max-width: 56.0rem;
+    }
+
     .read-together .right-side {
         grid-column: 8 / -2;
         grid-row: 2;
@@ -99,6 +104,7 @@
     .book-club .right-side {
         grid-column: 8 / -2;
         grid-row: 1 / -1;
+        justify-self: end;
     }
 
     .book-club .left-side {
@@ -110,7 +116,7 @@
         padding-right: 4.0rem;
     }
 
-    .right-side > div {
+    .features-info-container.right-side {
         padding-left: 3.8rem;
     }
 
@@ -191,7 +197,8 @@
     }
 
     .journey-list-number {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
+        font-weight: 600;
         width: 4.0rem;
         height: 4.0rem;
     }
