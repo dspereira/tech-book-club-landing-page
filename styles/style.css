@@ -86,6 +86,10 @@ img {
     height: auto;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .icon-btn {
     width: 2.4rem;
     height: 2.4rem;
@@ -201,11 +205,11 @@ ul, ol {
     gap: 1.2rem;
 }
 
-.hero-testimonials p{
+.hero-testimonials p {
     color: var(--neutral-700);
 }
 
-.footer-testimonials p{
+.footer-testimonials p {
     color: var(--neutral-0);
 }
 

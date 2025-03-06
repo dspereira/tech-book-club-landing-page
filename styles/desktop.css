@@ -44,7 +44,7 @@
     }
 
     .hero-text {
-        grid-column: 2 / 7;
+        grid-column: 2 / 8;
         grid-row: 3;
         margin-top: 0.4rem;
     }
@@ -79,7 +79,7 @@
     }
 
     .read-together .right-side {
-        grid-column: 8 / -2;
+        grid-column: 8 / -3;
         grid-row: 2;
     }
 
@@ -102,6 +102,9 @@
         grid-row: 2;
     }
 
+    .book-club .left-side p{
+        padding-right: 30px;
+    }
 
     .right-side > div {
         padding-left: 3.8rem;
@@ -169,12 +172,15 @@
 
     .journey-list {
         display: flex;
-        gap: 3.6rem;
         flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
         margin-top: 6.4rem;
     }
 
     .journey-list li {
+        width: 100%;
+        max-width: 22.6rem;
         position: relative;
         gap: 2.4rem;
         font-size: 1.8rem;
