@@ -79,8 +79,12 @@
     }
 
     .read-together .right-side {
-        grid-column: 8 / -3;
+        grid-column: 8 / -2;
         grid-row: 2;
+    }
+
+    .read-together .right-side ul{
+        padding-right: 10.0rem;
     }
 
     .read-together .left-side {
@@ -103,7 +107,7 @@
     }
 
     .book-club .left-side p{
-        padding-right: 30px;
+        padding-right: 3.0rem;
     }
 
     .right-side > div {
