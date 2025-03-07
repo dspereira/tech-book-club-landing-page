@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/profile/dspereira](https://www.frontendmentor.io/profile/dspereira)
 - Live Site URL: [https://dspereira.github.io/tech-book-club-landing-page](https://dspereira.github.io/tech-book-club-landing-page)
 
 ## My process
